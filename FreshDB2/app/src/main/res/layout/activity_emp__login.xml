@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Emp_Login"
+    android:background="#050505">
+
+    <TextView
+        android:text="Enter ID: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_id_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <TextView
+        android:text="Enter Password: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_pass_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button_login_emp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0048ff"
+        android:text="Show Info"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="Firstname: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_firstname_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="Lasttname: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_lastname_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="Working Status: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_working_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="Job: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_job_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="Salary: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/edit_text_emp_salary_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
